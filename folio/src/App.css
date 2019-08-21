@@ -1,17 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   color: Black;
-  background-image:url('https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1062&q=80');
+  background-image:url('https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
   background-size: 100%;
 }
 
 img{
-  border-radius: 15px;
-  box-shadow: 2px 5px 5px palevioletred;
+  border-radius: 25px;
+  box-shadow: 2px 5px 5px white;
+  margin-bottom: 20px;
+  margin-left: 600px;
+  margin-top: 20px;
+}
+
+img.pokedex{
+  max-width: 200px;
+  margin: auto;
+}
+
+.links{
+  display: inline-block;
+  border: 0;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-family: inherit;
+  background-color: paleturquoise;
+  color: black;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  margin-top: 10px;
+  text-decoration: none;
 }
 
 iframe{
   border-radius: 15px;
   border:none;
   margin-top: 20px;
+  margin-left: 300px;
 }

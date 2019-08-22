@@ -7,7 +7,7 @@ export default function About(){
           <h1>Hi, I'm Nisa.</h1>
           <div className="text">
             <div className="aboutText">
-              <p>I am a web developer/artist based in Stryker, Ohio. I love to create for web and mobile devices</p>
+              <p>Web developer/artist based in NorthWest Ohio. Experience working with React and Redux. Also I have experience working with PHP, HTML/CSS, and JavaScript</p>
             </div>
           </div>
         </div>

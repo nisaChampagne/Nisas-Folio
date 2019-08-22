@@ -4,10 +4,10 @@ export default function About(){
     return(
         <div className="aboutContainer">
         <div className="Info">
-          <h1>Hello, my name is Nisa Champagne.</h1>
+          <h1>Hi, I'm Nisa.</h1>
           <div className="text">
             <div className="aboutText">
-              <h3>will do later</h3>
+              <p>I am a web developer/artist based in Stryker, Ohio. I love to create for web and mobile devices</p>
             </div>
           </div>
         </div>

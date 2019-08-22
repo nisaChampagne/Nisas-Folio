@@ -1,10 +1,11 @@
 import React from 'react'
+import PDF from './Nisa-Champagne2019.pdf'
 
 export default function Resume(){
+
     return(
-        <div>
-        <iframe className='resume' src="https://resume.creddle.io/embed/gj9aeancodo"
-        width="850" height="1100" seamless>Resume</iframe> 
+        <div className='resumeHolder'>
+        <a href={PDF} download className='download'>Click to download resume</a>
         </div>
     )
 }

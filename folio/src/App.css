@@ -8,22 +8,31 @@
   color: Black;
   background-image:url('https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
   background-size: 100%;
+  font-family: inherit;
+}
+
+h1, h2, h3, h4{
+  font-family: inherit;
+
 }
 
 img{
   border-radius: 25px;
   box-shadow: 2px 5px 5px white;
   margin-bottom: 20px;
-  margin-left: 600px;
+  margin-left: 500px;
   margin-top: 20px;
 }
 
 img.pokedex{
-  max-width: 200px;
   margin: auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.links{
+a, .links{
   display: inline-block;
   border: 0;
   border-radius: 5px;
@@ -37,12 +46,21 @@ img.pokedex{
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   margin-left: 20px;
   margin-top: 10px;
+  margin-bottom: 20px;
   text-decoration: none;
 }
 
-iframe{
+.resume{
   border-radius: 15px;
   border:none;
   margin-top: 20px;
   margin-left: 300px;
 }
+
+.videoproject{
+  width: 400px;
+  height: 400px;
+}
+
+
+

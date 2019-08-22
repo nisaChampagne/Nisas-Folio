@@ -26,9 +26,13 @@ export default function Projects(){
             </div>
             <div className='projects'>
                 <h3>Client Side Authentication Practice</h3>
+                <div>
+                    <iframe className='videoproject' src="https://www.loom.com/embed/2e3fa99ec5514405a08e32ddd3cb03cf"></iframe>
+                </div>
                 <a href='https://github.com/nisaChampagne/Auth-Friends'>Github Link</a>
-                <a href='https://github.com/nisaChampagne/Auth-Friends'>Hosted(placeholder)</a>
             </div>
         </div>
     )
+
+    
 }

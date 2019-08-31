@@ -2,18 +2,18 @@ import React from "react";
 
 export default function Contact(){
     return (
-      <div className="flex">
+      <div>
         <div className="contactContainer">
-          <div className="wrapper animated bounceInLeft">
-            <div className="company-info">
-              <h1>Let's Connect!</h1>
-              <ul>
-                <li className="contactText">
+          <div>
+            <div className="companyinfo">
+              <h1 className='contactH1'>Let's Connect!</h1>
+                <div className="contactText">
                   <i className="phone" /> (813) 344 - 8993
-                </li>
-                <li className="contactText">
+                </div>
+                <div className="contactText">
                   <i className="email" /> nchampag23@gmail.com
-                </li>
+                </div>
+                <div className='socialsHolder'>
                 <li className="contactText">
                   <a href='https://twitter.com/nisa_Champagne' className='socials'>TWitter</a>
                 </li>
@@ -23,7 +23,7 @@ export default function Contact(){
                 <li className="contactText">
                   <a href="https://www.linkedin.com/in/nisa-champagne-32782b182/" className='socials' >LinkedIn</a>
                 </li>
-              </ul>
+                </div>
             </div>
           </div>
         </div>

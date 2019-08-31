@@ -10,11 +10,11 @@ const Home = React.memo(() => {
             Nisa Champagne
         </h1>
         <div className="text">
-          <div>
+          <div className='homeShort'>
             <img src={Dev} className='icon' alt='developer' /> 
-            <p>Full stack web developer by day</p> 
+            <p className='descriptionOnHome'>Full stack web developer by day</p> 
             <img src={Brush} className='icon' alt='paintbrush' />
-            <p>Artist by night</p>
+            <p className='descriptionOnHome'>Artist by night</p>
           </div>
         </div>
         <img

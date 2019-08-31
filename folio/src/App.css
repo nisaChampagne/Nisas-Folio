@@ -1,20 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Gloria+Hallelujah|Indie+Flower|Lacquer|Schoolbell&display=swap');
+
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-html{
+body,html{
   background-image:url('https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Schoolbell', cursive;
+  font-weight: bold;
+  min-height: 1210px;
+}
+
+.resumeHolder{
   background-size: 100%;
   background-repeat: no-repeat;
 }
 
-.resumeHolder{
-  background-image:url('https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80');
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
+
 
 .App {
   text-align: center;
@@ -27,11 +33,11 @@ h1, h2, h3, h4{
 
 }
 
-img{
+img.NisasPhoto{
   border-radius: 25px;
   box-shadow: 2px 5px 5px white;
   margin-left: 400px;
-  margin-top: 60px;
+  margin-top: 60px; 
 }
 
 img.pokedex{
@@ -45,7 +51,7 @@ img.pokedex{
 a, .links{
   display: inline-block;
   border: 0;
-  border-radius: 5px;
+  border-radius: 7px;
   padding: 10px 15px;
   font-family: inherit;
   background-color: rgb(188, 234, 234);
@@ -101,13 +107,26 @@ p, .icon{
   margin-left: 10px;
 }
 
-p{
+p.descriptionOnHome{
   font-size: 18px;
 }
+
 .download{
   margin-top: 200px;
   justify-content: center;
   align-items: center;
+}
+
+.aboutContainer{
+  max-width: 800px;
+  margin: auto;
+  margin-top: 60px;
+  background: white;
+  border-radius: 7px;
+}
+
+.aboutInfoh1{
+  border-bottom: 2px solid red;
 }
 
 .pending {
@@ -115,4 +134,111 @@ p{
   margin-top: 40px;
   width: 200px;
   height: 200px;
+}
+
+.contactContainer{
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+@media(max-width: 801px){
+  .html, body{
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    min-height: 1210px;
+    margin: auto;
+  }
+  .aboutContainer{
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+
+  img.NisasPhoto{
+    margin: auto;
+    margin-right: 1700px;
+    margin-top: 25px;
+    box-shadow: -23px 21px 20px -14px rgb(188, 234, 234);
+    }
+  a.links{
+    margin: 10px 10px 10px 10px;
+  }
+}
+
+@media(max-width:501px){
+  html, body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:1210px;
+  }
+  .resumeHolder{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  img.NisasPhoto{
+    margin: auto;
+    margin-top: 40px;
+  }
+  img.pokedex{
+    margin: auto;
+  }
+  .linkholder{
+    display: flex;
+
+  }
+  a.links{
+    display: flex;
+    max-width: 150px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  a.socials{
+    margin: auto;
+    max-width: 100%;
+    font-family: 'Schoolbell', cursive;
+  }
+  .socialsHolder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 100%;
+  }
+ 
+  .contactH1, .contactText{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+   }
+   .contactText{
+     font-size: 19px;
+   }
+   .contactContainer{
+     margin-top: 80px;
+   }
+   .homeInfo{
+    margin-top: 25px;
+  }
+  p.descriptionOnHome{
+    font-size: 19px;
+    margin: auto;
+  }
+  .aboutInfoP{
+    font-size: 20px;
+  }
+  .aboutInfoh1{
+    border-bottom: 2px solid red;
+  }
+  .aboutContainer{
+    background: white;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 7px;
+  }
 }

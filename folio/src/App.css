@@ -7,8 +7,8 @@
 }
 
 body,html{
-  background-image:url('https://images.unsplash.com/photo-1565902603597-a1fb3767bdd0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
-  background-size: 100%;
+  background-image:url('https://images.unsplash.com/photo-1517697471339-4aa32003c11a?ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80');
+  background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Schoolbell', cursive;
   font-weight: bold;
@@ -150,7 +150,7 @@ p.descriptionOnHome{
     margin: auto;
   }
   .aboutContainer{
-    max-width: 400px;
+    max-width: 700px;
     margin: 0 auto;
     margin-top: 50px;
   }
@@ -183,11 +183,11 @@ p.descriptionOnHome{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    /* margin: auto; */
   }
   a.links{
     max-width: 400px;
-    margin: 15px 0 15px 0;
+    margin: 15px 5px 15px 5px;
     padding: 4px 4px 4px 4px;
     font-size: 14px;
   }
@@ -222,7 +222,7 @@ p.descriptionOnHome{
     margin-top: 25px;
   }
   p.descriptionOnHome{
-    font-size: 19px;
+    font-size: 18px;
     margin: auto;
   }
   .aboutInfoP{

@@ -28,9 +28,9 @@ function App() {
           <Link to="/resume" className="links">
             Resume
           </Link>
-          <Link to="/blog" className="links">
+          {/* <Link to="/blog" className="links">
             Blog
-          </Link>
+          </Link> */}
         </div>
       <Switch>
         <Route exact path="/" component={Home} />
@@ -38,7 +38,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/projects" component={Projects} />
         <Route path="/resume" component={Resume} />
-        <Route path='/blog' component={Blog} />
+        {/* <Route path='/blog' component={Blog} /> */}
       </Switch>
     </div>
     </Router>

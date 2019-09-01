@@ -1,6 +1,6 @@
 import React from "react";
 import Dev from './devfolio.jpg'
-import Brush from './paintbrushfolio.png'
+import Brush from './pb12.png'
 
 const Home = React.memo(() => {
   return (

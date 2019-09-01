@@ -14,15 +14,15 @@ export default function Contact(){
                   <i className="email" /> nchampag23@gmail.com
                 </div>
                 <div className='socialsHolder'>
-                <li className="contactText">
+                <div className="contactText">
                   <a href='https://twitter.com/nisa_Champagne' className='socials'>TWitter</a>
-                </li>
-                <li className="contactText">
+                </div>
+                <div className="contactText">
                   <a href='https://github.com/nisaChampagne' className='socials'>Github</a>
-                </li>
-                <li className="contactText">
+                </div>
+                <div className="contactText">
                   <a href="https://www.linkedin.com/in/nisa-champagne-32782b182/" className='socials' >LinkedIn</a>
-                </li>
+                </div>
                 </div>
             </div>
           </div>

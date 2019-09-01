@@ -165,7 +165,7 @@ p.descriptionOnHome{
   html, body{
     background-size: cover;
     background-repeat: no-repeat;
-    min-height:1210px;
+    min-height:1000px;
   }
   .resumeHolder{
     background-size: cover;
@@ -186,13 +186,14 @@ p.descriptionOnHome{
   }
   a.links{
     max-width: 400px;
-    margin: 15px 5px 15px 5px;
+    margin: 15px 2px 15px 2px;
     padding: 4px 4px 4px 4px;
-    font-size: 14px;
+    font-size: 13px;
   }
   a.socials{
-    margin: auto;
+    margin: 0 auto;
     max-width: 100%;
+    font-size: 14px;
     font-family: 'Schoolbell', cursive;
   }
   .socialsHolder{
@@ -201,6 +202,7 @@ p.descriptionOnHome{
     justify-content: center;
     align-items: center;
     margin: auto;
+    padding: 0;
     max-width: 100%;
   }
  

@@ -49,7 +49,6 @@ a, .links{
   border: 0;
   border-radius: 7px;
   padding: 10px 15px;
-  font-family: inherit;
   background-color: rgb(188, 234, 234);
   color: black;
   cursor: pointer;
@@ -185,23 +184,21 @@ p.descriptionOnHome{
     /* margin: auto; */
   }
   a.links{
-    max-width: 400px;
+    max-width: 300px;
     margin: 15px 2px 15px 2px;
     padding: 4px 4px 4px 4px;
-    font-size: 12.5px;
+    font-size: 12px;
   }
   a.socials{
     margin: 0 auto;
     max-width: 100%;
     font-size: 14px;
-    font-family: 'Schoolbell', cursive;
   }
   .socialsHolder{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    font-family: 'Kalam', cursive;
     margin: auto;
     padding: 0;
     max-width: 100%;

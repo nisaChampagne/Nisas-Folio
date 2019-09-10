@@ -9,7 +9,7 @@ body,html{
   background-size: 100%;
   background-repeat: no-repeat;
   font-weight: bold;
-  /* min-height: 1210px; */
+  min-height: 1210px;
 }
 
 .resumeHolder{

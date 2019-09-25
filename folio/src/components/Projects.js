@@ -1,7 +1,7 @@
 import React from "react";
-import PokeDex from './pokedexfolio.png'
+import PokeDex from './pokedexnew.png'
 import Hogwarts from './hogwarts.png'
-import Todo from './todofolio.png'
+import Todo from './reacttodonew.png'
 import posed from 'react-pose'
 
 export default function Projects(){

@@ -12,8 +12,8 @@ const Home = React.memo(() => {
         <div className="text">
           <div className='homeShort'>
             <img src={Dev} className='icon' alt='developer' /> 
-            <p className='descriptionOnHome'>Full stack web developer by day</p> 
-            <img src={Brush} className='icon' alt='paintbrush' />
+            <p className='descriptionOnHome'>Full stack web developer by day.</p> 
+            <br />
             <p className='descriptionOnHome'>Artist by night</p>
           </div>
         </div>

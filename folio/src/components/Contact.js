@@ -1,4 +1,7 @@
 import React from "react";
+import GH from './github.png'
+import Twitter from './twitter.png'
+import LinkedIn from './linked.png'
 
 export default function Contact(){
     return (
@@ -15,13 +18,13 @@ export default function Contact(){
                 </div>
                 <div className='socialsHolder'>
                 <div className="contactText">
-                  <a href='https://twitter.com/nisa_Champagne' className='socials'>TWitter</a>
+                  <a href='https://twitter.com/nisa_Champagne' className='socials'><img src={Twitter} className='twitter' alt='twitter logo' width="40px" height="40px" /></a>
                 </div>
                 <div className="contactText">
-                  <a href='https://github.com/nisaChampagne' className='socials'>Github</a>
+                  <a href='https://github.com/nisaChampagne' className='socials'><img src={GH} className='gh' alt='github logo' width="40px" height="40px" /></a>
                 </div>
                 <div className="contactText">
-                  <a href="https://www.linkedin.com/in/nisa-champagne-32782b182/" className='socials' >LinkedIn</a>
+                  <a href="https://www.linkedin.com/in/nisa-champagne-32782b182/" className='socials' ><img src={LinkedIn} className='linkedin' alt='linkedin logo' width="40px" height="40px" /></a>
                 </div>
                 </div>
             </div>

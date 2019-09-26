@@ -19,7 +19,7 @@ class Click extends React.Component {
       return (
           <div className="cards">
               <ul style={{display: 'inline'}}>
-                  <li className="li1" onClick={this.handleClick.bind(this, 'About Me')}>TidBits About Me</li>
+                  <li className="li1" onClick={this.handleClick.bind(this, 'About Me')}>About Me</li>
                   <li className="li2" onClick={this.handleClick.bind(this, 'My Stack')}>My Stack</li>
               </ul>
               {this._renderSubComp()}

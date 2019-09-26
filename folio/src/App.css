@@ -352,7 +352,13 @@ hr{
 
   .links1,.links2,.links3,.links4, .links5{
     padding: 7px 7px 7px 7px;
-    margin: 10px 1px 5px 8px;
+    margin: 10px 0 5px 6px;
+  }
+
+  .li1, .li2{
+    padding: 7px 7px 7px 7px;
+    margin: 10px 0 5px 6px;
+    font-size: 11px;
   }
   a.socials{
     margin: 0 auto;

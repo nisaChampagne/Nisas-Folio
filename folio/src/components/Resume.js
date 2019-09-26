@@ -5,7 +5,7 @@ export default function Resume(){
 
     return(
         <div className='resumeHolder'>
-        <a href={PDF} download className='download'>Click to download resume</a>
+        <a href={PDF} download className='download'className="resumeBtn">Click to download resume</a>
         </div>
     )
 }

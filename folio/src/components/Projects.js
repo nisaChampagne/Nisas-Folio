@@ -21,27 +21,27 @@ export default function Projects(){
             <div className='projects'>
                 <h3>Hogwarts Sorting Hat Quiz</h3>
                 <Box><img src={Hogwarts} alt='hogwarts-preview' className='pokedex'/></Box>
-                <a href='https://github.com/nisaChampagne/React-Sorting-Hat'>GitHub Link</a>
-                <a href='https://react-sorting-hat.nchampag23.now.sh/'>Hosted</a>
+                <a href='https://github.com/nisaChampagne/React-Sorting-Hat'className="projectBtn">GitHub Link</a>
+                <a href='https://react-sorting-hat.nchampag23.now.sh/'className="projectBtn">Hosted</a>
             </div>
             <div className='projects'>
                 <h3>React Todo List</h3>
                 <Box><img src={Todo} alt='todo-preview' className='pokedex'/></Box>
-                <a href='https://github.com/nisaChampagne/React-Todo'>Github Link </a>
-                <a href='https://react-todo-4bm2326a5.now.sh/'>Hosted</a>
+                <a href='https://github.com/nisaChampagne/React-Todo'className="projectBtn">Github Link </a>
+                <a href='https://react-todo-4bm2326a5.now.sh/'className="projectBtn">Hosted</a>
             </div>
             <div className='projects'>
                 <h3>Simple PokeDex</h3>
                 <Box><img src={PokeDex} alt='pokedex-preview' className='pokedex'/></Box>
-                <a href='https://github.com/nisaChampagne/Sideprojectpokedex'>Github Link</a>
-                <a href='https://pokedex.nchampag23.now.sh/'>Hosted</a>
+                <a href='https://github.com/nisaChampagne/Sideprojectpokedex' className="projectBtn">Github Link</a>
+                <a href='https://pokedex.nchampag23.now.sh/'className="projectBtn">Hosted</a>
             </div>
             <div className='projects'>
                 <h3>Client Side Authentication Practice</h3>
                 <Box>
                     <iframe className='videoproject' src="https://www.loom.com/embed/2e3fa99ec5514405a08e32ddd3cb03cf"></iframe>
                 </Box>
-                <a href='https://github.com/nisaChampagne/Auth-Friends'>Github Link</a>
+                <a href='https://github.com/nisaChampagne/Auth-Friends'className="projectBtn">Github Link</a>
             </div>
         </div>
     )

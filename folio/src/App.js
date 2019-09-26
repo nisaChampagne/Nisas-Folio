@@ -13,19 +13,19 @@ function App() {
     <Router>
     <div className="App">
     <div className="linkholder">
-          <Link to="/" className="links">
+          <Link to="/" className="links1">
             Home
           </Link>
-          <Link to="/about" className="links">
+          <Link to="/about" className="links2">
             About
           </Link>
-          <Link to="/contact" className="links">
+          <Link to="/contact" className="links3">
             Contact
           </Link>
-          <Link to="/projects" className="links">
+          <Link to="/projects" className="links4">
             Projects
           </Link>
-          <Link to="/resume" className="links">
+          <Link to="/resume" className="links5">
             Resume
           </Link>
           {/* <Link to="/blog" className="links">

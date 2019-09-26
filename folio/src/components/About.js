@@ -63,6 +63,7 @@ class About2 extends React.Component{
               <p className='aboutInfoP'>JavaScript</p>
               <br/>
               <p className='aboutInfoP'>Java</p>
+              <br />
               <h2 className="aboutInfoh2">Frameworks and Libraries</h2>
               <hr />
               <p className='aboutInfoP'>ReactJS</p>
@@ -76,9 +77,11 @@ class About2 extends React.Component{
               <p className='aboutInfoP'>Redux</p>
               <br/>
               <p className='aboutInfoP'>Styled-Components</p>
+              <br />
               <h2 className="aboutInfoh2">Databases</h2>
               <hr />
               <p className='aboutInfoP'>PostgeSQL</p>
+              <br />
               <h2 className="aboutInfoh2">Version Control</h2>
               <hr />
               <p className='aboutInfoP'>Git</p>
@@ -92,6 +95,7 @@ class About2 extends React.Component{
               <p className='aboutInfoP'>Terminal</p>
               <br/>
               <p className='aboutInfoP'>Windows</p>
+              <br />
               <h2 className="aboutInfoh2">Software Development</h2>
               <hr />
               <p className='aboutInfoP'>Pair Programming</p>

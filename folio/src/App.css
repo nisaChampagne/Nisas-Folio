@@ -320,7 +320,7 @@ hr{
   }
 
   .resume{
-    width: 650px;
+    width: 100%;
   }
 
   img.NisasPhoto{
@@ -342,7 +342,7 @@ hr{
   }
 
   .resume{
-    width: 400px;
+    width: 100%;
   }
   img.NisasPhoto{
     margin: auto;

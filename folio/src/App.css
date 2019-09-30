@@ -20,8 +20,15 @@ body,html{
 .resumeHolder{
   background-size: 100%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+.resume{
+  width: 850px;
+}
 
 
 .App {
@@ -312,6 +319,10 @@ hr{
 
   }
 
+  .resume{
+    width: 650px;
+  }
+
   img.NisasPhoto{
     margin: auto;
     margin-top: 25px;
@@ -328,6 +339,10 @@ hr{
   .resumeHolder{
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .resume{
+    width: 400px;
   }
   img.NisasPhoto{
     margin: auto;
